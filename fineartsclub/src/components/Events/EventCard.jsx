@@ -1,4 +1,4 @@
-import { tagColors } from "../../data/tagColors";
+import { tagColors } from "../../Data/tagColors";
 
 export default function EventCard({ event, index }) {
   // Alternate image side: even cards image-left, odd cards image-right (desktop only)
