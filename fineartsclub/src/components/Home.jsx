@@ -3,13 +3,13 @@ import Hero from "./home/Hero"
 import Footer from "./home/Footer"
 
 export default function Home({setPage}){
-  return(
+  return (
     <div>
-       <Hero/>
-       <About/>
-       <Footer/>
+      <Hero setPage={setPage} />
+      <About />
+      <Footer />
     </div>
-  )
+  );
 }
 
 

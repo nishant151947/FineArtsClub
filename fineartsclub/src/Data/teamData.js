@@ -1,106 +1,161 @@
+import { cloudinaryImg } from "./cloudinaryImg";
+
 export const heads = [
-  { 
-    id:0,
+  {
+    id: 0,
     name: "Mohit",
     role: "Sectretory",
-    img: "https://images.unsplash.com/photo-1654110455429-cf322b40a906?w=400&h=400&fit=crop&auto=format",
+    img: cloudinaryImg("mohit_kale"),
   },
-  { 
-    id:1,
+  {
+    id: 1,
     name: "Tanushri Pandey",
     role: "Convener",
-    img: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=400&h=400&fit=crop&auto=format",
+    img: cloudinaryImg("tanu_-_Tanushri_Pandey"),
   },
-  { 
-    id:2,
+  {
+    id: 2,
     name: "Nishant",
-    role: "Creative Director",
-    img: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop&auto=format",
-  }
+    role: "Convener",
+    img: cloudinaryImg("my_pic"),
+  },
+  {
+    id: 3,
+    name: "Sauren",
+    role: "Member",
+    img: cloudinaryImg("souren.jpg"),
+  },
+  {
+    id: 4,
+    name: "Anurag Singh Patiyal",
+    role: "Member",
+    img: cloudinaryImg("Anurag_Singh_Patial"),
+  },
+  {
+    id: 5,
+    name: "Vikas Saini",
+    role: "Member",
+    img: cloudinaryImg("vikas_saini"),
+  },
 ];
 
 export const coConveners = [
-  { 
-    id:0,
-    name: "Sneha Patel",
-    role: "Events Co-Convener",
-    
-    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 0,
+    name: "Shaifali Raj Kuldeep",
+    role: "Co-Convener",
+
+    img: cloudinaryImg("Shaifali_Raj_Kuldeep"),
   },
-  { 
-    id:1,
-    name: "Karan Joshi",
-    role: "Design Co-Convener",
-   
-    img: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 1,
+    name: "Gaurav Pratap Singh",
+    role: "Co-Convener",
+
+    img: cloudinaryImg("Gaurav_Pratap_Singh.jpg"),
   },
-  { 
-    id:2,
-    name: "Aditya Kumar",
-    role: "Finance Co-Convener",
-    
-    img: "https://images.unsplash.com/photo-1542458579-bc6f69b5ce6b?w=400&h=400&fit=crop&auto=format",
-  }
+  {
+    id: 2,
+    name: "Aman Kaushal",
+    role: "Co-Convener",
+
+    img: cloudinaryImg("aman_kaushal"),
+  },
 ];
 
 export const coordinators = [
   {
-    id:0,
-    name: "Vikram Singh",
-    role: "Workshop Coordinator",
-    
-    img: "https://images.unsplash.com/photo-1611178204388-1deef70ec66a?w=400&h=400&fit=crop&auto=format",
+    id: 0,
+    name: "Sumit",
+    role: "Coordinator",
+
+    img: cloudinaryImg("Sumit"),
   },
   {
-    id:1,
-    name: "Nikhil Sharma",
-    role: "Tech Coordinator",
-    
-    img: "https://images.unsplash.com/photo-1531750026848-8ada78f641c2?w=400&h=400&fit=crop&auto=format",
-  },
-  { 
-    id:2,
-    name: "Divya Iyer",
-    role: "Outreach Coordinator",
-     
-    img: "https://images.unsplash.com/photo-1740102075520-fe22a53035cf?w=400&h=400&fit=crop&auto=format",
-  },
-  { 
-    id:3,
-    name: "Siddharth Roy",
-    role: "Volunteer Coordinator",
-    
-    img: "https://images.unsplash.com/photo-1767330855651-238523c49601?w=400&h=400&fit=crop&auto=format",
+    id: 1,
+    name: "Vidhi Khandelwal",
+    role: "Coordinator",
+
+    img: cloudinaryImg("Vidhi_Khandelwal"),
   },
 ];
 
 export const executives = [
-  { 
-    id:0,
-    name: "Meera Nair",
-    role: "Social Media Executive",
-    
-    img: "https://images.unsplash.com/photo-1548810020-ea2f1da35cff?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 0,
+    name: "Aman Kumar",
+    role: "Executive",
+
+    img: cloudinaryImg("Aman_Kumar"),
   },
-  { 
-    id:1,
-    name: "Rohan Gupta",
-    role: "Photography Executive",
-    
-    img: "https://images.unsplash.com/photo-1680759158937-e9d31e2c51b0?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 1,
+    name: "Anshika Bhatia",
+    role: "Executive",
+
+    img: cloudinaryImg("Anshika_Bhatia_-_ANSHIKA_BHATIA"),
   },
-  { 
-    id:2,
-    name: "Ishaan Malhotra",
-    role: "Web Executive",
-    
-    img: "https://images.unsplash.com/photo-1592060036126-1b6d5139dea4?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 2,
+    name: "Amrita",
+    role: "Executive",
+
+    img: cloudinaryImg("Amrita"),
   },
-  { 
-    id:3,
-    name: "Kavya Pillai",
-    role: "Content Executive",
-    
-    img: "https://images.unsplash.com/photo-1767330855801-8ba9eb8f81e6?w=400&h=400&fit=crop&auto=format",
+  {
+    id: 3,
+    name: "ARYAN SINGH",
+    role: "Executive",
+
+    img: cloudinaryImg("ARYAN_SINGH"),
+  },
+  {
+    id: 4,
+    name: "Rajat Singh",
+    role: "Executive",
+
+    img: cloudinaryImg("Rajat_Singh"),
+  },
+  {
+    id: 5,
+    name: "Riya Shashni",
+    role: "Executive",
+
+    img: cloudinaryImg("Riya_Shashni"),
+  },
+  {
+    id: 6,
+    name: "Rishabh Banyal",
+    role: "Executive",
+
+    img: cloudinaryImg("Rishabh_Banyal"),
+  },
+  {
+    id: 7,
+    name: "Nandini Sharma",
+    role: "Executive",
+
+    img: cloudinaryImg("Nandini_Sharma"),
+  },
+  {
+    id: 8,
+    name: "MADHU VERMA",
+    role: "Executive",
+
+    img: cloudinaryImg("MADHU_VERMA"),
+  },
+  {
+    id: 9,
+    name: "Mukul",
+    role: "Executive",
+
+    img: cloudinaryImg("mukul"),
+  },
+  {
+    id: 10,
+    name: "Dipendra",
+    role: "Executive",
+
+    img: cloudinaryImg("Dipendra"),
   },
 ];

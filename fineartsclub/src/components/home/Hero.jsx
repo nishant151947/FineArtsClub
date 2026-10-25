@@ -43,7 +43,11 @@ export default function Hero({ setPage }) {
           {/* gallery button  */}
           <div className="flex flex-wrap gap-4">
             <button
-              onClick={() => setPage("gallery")}
+              
+              onClick={() => {
+                console.log("setPage is:", setPage);
+                setPage("gallery");
+              }}
               className="px-6 py-3 border border-[var(--border)] text-[var(--foreground)] rounded-full font-medium text-sm hover:bg-[var(--muted)] transition-colors"
             >
               View Gallery →
@@ -58,10 +62,7 @@ export default function Hero({ setPage }) {
             {/* two columns of images  */}
             <div className="space-y-4">
               <div className="rounded-2xl overflow-hidden aspect-[4/5] bg-[var(--muted)]">
-                <img
-                  src={img01}
-                  className="w-full h-full object-cover"
-                />
+                <img src={img01} className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-square bg-[var(--muted)]">
                 <img
@@ -83,10 +84,7 @@ export default function Hero({ setPage }) {
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-[4/5] bg-[var(--muted)]">
-                <img
-                  src={img02}
-                  className="w-full h-full object-cover"
-                />
+                <img src={img02} className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
