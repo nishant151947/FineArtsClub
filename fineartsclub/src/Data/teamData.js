@@ -3,8 +3,8 @@ import { cloudinaryImg } from "./cloudinaryImg";
 export const heads = [
   {
     id: 0,
-    name: "Mohit",
-    role: "Sectretory",
+    name: "Mohit Kale",
+    role: "Secretary",
     img: cloudinaryImg("mohit_kale"),
   },
   {
@@ -27,7 +27,7 @@ export const heads = [
   },
   {
     id: 4,
-    name: "Anurag Singh Patiyal",
+    name: "Anurag Singh Patial",
     role: "Member",
     img: cloudinaryImg("Anurag_Singh_Patial"),
   },
@@ -104,7 +104,7 @@ export const executives = [
   },
   {
     id: 3,
-    name: "ARYAN SINGH",
+    name: "Aryan Singh",
     role: "Executive",
 
     img: cloudinaryImg("ARYAN_SINGH"),
@@ -139,7 +139,7 @@ export const executives = [
   },
   {
     id: 8,
-    name: "MADHU VERMA",
+    name: "Madhu Verma",
     role: "Executive",
 
     img: cloudinaryImg("MADHU_VERMA"),
